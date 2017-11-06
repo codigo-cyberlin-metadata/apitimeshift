@@ -1,0 +1,32 @@
+{
+    "jwt": {
+      "secret": "infra@codigo",
+      "algorithm": "HS256",
+      "exp": 20
+    },
+    "middleware": {
+        "basic_auth": "Basic XXXXXXX"
+    },
+    "telegram": {
+            "token": "XXXXX",
+            "chatid":"-XXX"
+    },
+    "rabbit": {
+            "url": "http://XXXXX",
+            "token": "Basic XXX"
+    },
+    "email": {
+            "milist": "infra@codigo.id",
+            "receive": "xxxx@codigo.id",
+            "password": "xxx",
+            "smtp": "smtp.gmail.com",
+            "port": 587
+    },
+    "ldap": {
+            "url": "xxx.codigo.id",
+            "port": 389,
+            "bindDN": "cn=cnxxx,dc=xxxx,dc=xx",
+            "password": "xxx",
+            "baseDN": "ou=xxx,dc=xxx,dc=xx"
+    }
+}

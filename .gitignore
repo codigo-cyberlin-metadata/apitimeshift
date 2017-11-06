@@ -1,0 +1,9 @@
+*.pyc
+pyenv
+__pycache__
+.idea
+lib/*.pyc
+test.py
+config.jsonx
+
+
